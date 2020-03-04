@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Periods
 {
-    class Period
+    public class Period
     {
         public int Start { get; set; }
         public int End { get; set; }
