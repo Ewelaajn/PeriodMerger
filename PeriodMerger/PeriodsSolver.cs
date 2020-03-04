@@ -45,8 +45,11 @@ namespace Periods
                     stack.Push(period);
                 }
             }
+
+            var result = stack.ToList();
+            result.Reverse();
             
-            return stack.ToList();
+            return result;
         }
     }
 }
